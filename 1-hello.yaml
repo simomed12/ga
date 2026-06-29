@@ -1,0 +1,10 @@
+name: Hello
+
+on: 
+  workflow_dispatch:
+
+jobs: 
+  premier_job:
+    runs_on: ubuntu-24.04
+    steps:
+      - run : echo "First job and step"
