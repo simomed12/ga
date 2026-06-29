@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs: 
-  premier_job:
-    runs_on: ubuntu-24.04
+  premier-job:
+    runs-on: ubuntu-24.04
     steps:
       - run : echo "First job and step"
